@@ -1,0 +1,6 @@
+function removeLastStudent() {
+    const list = document.getElementById("list");
+    if (list.lastChild) {
+        list.removeChild(list.lastChild);
+    }
+}
